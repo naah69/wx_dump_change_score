@@ -6,7 +6,7 @@
 node.js通过npm -g anyproxy 安装AnyProxy
 
 使用anyproxy-ca 生成证书
-使用anyproxy -i 启用https代理
+使用anyproxy -i --rule=路径+wxdump.js  启用https代理
 
 移动端通过wifi代理启用anyproxy的服务器的ip，端口默认为8001
 
