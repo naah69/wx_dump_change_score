@@ -39,7 +39,13 @@ module.exports = {
 	   
 	     var action = [],
             musicList = [],
-            touchList = []
+            touchList = [];
+	
+		for(var i=Math.round(10000+Math.random()*2000);i>0;i--){
+				action.push([Math.random().toFixed(3),(Math.random()*2).toFixed(2),i/5000==0?true:false]);
+				musicList.push(false);
+				touchList.push([(250-Math.random()*10).toFixed(4),(670-Math.random()*20).toFixed(4)]);
+			}
 		actiondata['game_data']=JSON.stringify({
                 seed: Date.now(),
                 action: action,
