@@ -37,6 +37,8 @@ node.js通过npm install -g anyproxy 安装AnyProxy
 
 证书:http://yingxiao-uat.baiwandian.cn/ca/rootCA.crt
 
+ ios要在设置 通用 关于本机 最下面的证书信任里面吧anyproxy打开
+
 代理ip：183.136.134.239
 
 代理端口：8001
