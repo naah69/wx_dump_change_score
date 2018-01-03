@@ -15,6 +15,8 @@ node.js通过npm install -g anyproxy 安装AnyProxy
 移动端要安装证书才能使用，不然无法拦截https请求
 然后移动端通过浏览器进入 ip:8002  点击下载crt证书  进行安装
 
+ ios要在设置 通用 关于本机 最下面的证书信任里面吧anyproxy打开
+
 安装后 关闭wifi  重新开启wifi
 
 将微信后台关闭  重新开启  进入小程序 此时应该已经成功刷入
