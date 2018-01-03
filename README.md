@@ -1,4 +1,5 @@
 # wx_dump_change_score
+##本地构建版本
 微信小游戏跳一跳通过HTTP代理拦截进行更改分数
 
 使用阿里巴巴开发的AnyProxy作为HTTP代理
@@ -21,4 +22,8 @@ node.js通过npm install -g anyproxy 安装AnyProxy
 如未成功 可进行5-10次自杀游戏即可刷新成绩，重启微信进行查看
 
 刷分规则  默认8000+2000以内随机数  最后多少分 看你们自己的造化了
+
+##网络使用版本
+微信公众号：xyl-tech
+
 
