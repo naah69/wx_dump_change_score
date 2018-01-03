@@ -3,7 +3,7 @@
 
 使用阿里巴巴开发的AnyProxy作为HTTP代理
 
-node.js通过npm -g anyproxy 安装AnyProxy
+node.js通过npm install -g anyproxy 安装AnyProxy
 
 使用anyproxy-ca 生成证书
 使用anyproxy -i --rule=路径+wxdump.js  启用https代理
