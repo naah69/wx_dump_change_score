@@ -9,8 +9,10 @@ node.js通过npm install -g anyproxy 安装AnyProxy
 使用anyproxy-ca 生成证书
 使用anyproxy -i --rule=路径+wxdump.js  启用https代理
 
+
 移动端通过wifi代理启用anyproxy的服务器的ip，端口默认为8001
 
+移动端要安装证书才能使用，不然无法拦截https请求
 然后移动端通过浏览器进入 ip:8002  点击下载crt证书  进行安装
 
 安装后 关闭wifi  重新开启wifi
@@ -25,5 +27,6 @@ node.js通过npm install -g anyproxy 安装AnyProxy
 
 ## 网络使用版本
 微信公众号：xyl-tech
-
+本地构建失败的，可以关注该公众号，提供网络版本
+明天会发布自定义分数版本
 
