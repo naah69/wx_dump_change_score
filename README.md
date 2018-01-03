@@ -27,9 +27,16 @@ node.js通过npm install -g anyproxy 安装AnyProxy
 
 ## 网络使用版本
 微信公众号：xyl-tech（被封了，日了狗）
+
 本地构建失败的，可以关注该公众号，提供网络版本
+
+代理后浏览器进入百度检测，如果显示无法连接，说明服务器宕机了
+这个服务器不咋好，流量太大了
+
 证书:http://yingxiao-uat.baiwandian.cn/ca/rootCA.crt
+
 代理ip：183.136.134.239
+
 代理端口：8001
 
 明天会发布自定义分数版本
