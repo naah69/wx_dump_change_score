@@ -35,7 +35,7 @@ node.js通过npm install -g anyproxy 安装AnyProxy
 代理后浏览器进入百度检测，如果显示无法连接，说明服务器宕机了
 这个服务器不咋好，流量太大了
 
-证书:http://yingxiao-uat.baiwandian.cn/ca/rootCA.crt
+证书:http://183.136.134.239/ca/rootCA.crt
 
  ios要在设置 通用 关于本机 最下面的证书信任里面吧anyproxy打开
 
